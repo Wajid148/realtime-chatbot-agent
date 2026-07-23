@@ -30,7 +30,8 @@ Large Language Models (LLMs)
 
 ▶️ Run Locally
 
-git clone https://github.com/https:/github.com/Wajid148/realtime-chatbot-agent.git
+git clone https://github.com/Wajid148/realtime-chatbot-agent.git
+
 cd realtime-chatbot-agent
 
 pip install -r requirements.txt
