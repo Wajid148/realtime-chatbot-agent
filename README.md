@@ -88,8 +88,4 @@ This project is licensed under the MIT License.
 
 **Wajida Bano**
 
-Software Engineering Student | AI & Machine Learning Enthusiast | AI Application Developer
 
----
-
-⭐ If you found this project useful, consider giving it a star on GitHub.
