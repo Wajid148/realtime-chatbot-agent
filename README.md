@@ -13,11 +13,13 @@ Configurable system prompt	Adjust the assistant's role, tone, and behavior on th
 Model selection	Switch between llama-3.3-70b-versatile, llama-3.1-8b-instant, and gemma2-9b-it
 Secure key handling	Supports both Streamlit Secrets (recommended) and manual key entry
 One-click deploy	Ready for free hosting on Streamlit Community Cloud
+
 🖥️ Demo
 
 Live app: https://realtime-chatbot-agent-myw7jc63emqbt7qzxwiruh.streamlit.app/
 
 🚀 Getting Started
+
 Prerequisites
 Python 3.9+
 A free Groq API key
@@ -62,6 +64,7 @@ Frontend/UI: Streamlit
 AI Provider: Groq API (OpenAI-compatible, free tier, streaming chat completions)
 
 🗺️ Roadmap
+
  Add Retrieval-Augmented Generation (RAG) to answer questions from custom documents
  Add persistent chat history (database-backed sessions)
  Add usage/token tracking
