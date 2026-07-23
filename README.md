@@ -5,35 +5,56 @@ A production-ready AI chatbot built with Python, Streamlit, and the Groq API. It
 Designed to demonstrate practical AI application development skills for freelance and client projects.
 
 ✨ Features
+
 ⚡ Real-time streaming responses
+
 💬 Conversation memory
+
 🎯 Customizable system prompts
+
 🤖 Multiple Groq model support
+
 🔒 Secure API key management
+
 ☁️ Ready for Streamlit Cloud deployment
+
 🚀 Tech Stack
+
 Python
+
 Streamlit
+
 Groq API
+
 Large Language Models (LLMs)
+
 ▶️ Run Locally
-git clone https://github.com/your-username/realtime-chatbot-agent.git
+
+git clone https://github.com/https:/github.com/Wajid148/realtime-chatbot-agent.git
 cd realtime-chatbot-agent
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 Add your Groq API key in .streamlit/secrets.toml:
 
 GROQ_API_KEY="your_api_key"
+
 🌐 Live Demo
 
 Demo: https://realtime-chatbot-agent-myw7jc63emqbt7qzxwiruh.streamlit.app/
 
 📌 Future Improvements
+
 Retrieval-Augmented Generation (RAG)
+
 Persistent chat history
+
 User authentication
+
 Token usage analytics
+
 👩‍💻 Author
 
 Wajida Bano
