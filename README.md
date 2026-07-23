@@ -15,7 +15,7 @@ Secure key handling	Supports both Streamlit Secrets (recommended) and manual key
 One-click deploy	Ready for free hosting on Streamlit Community Cloud
 🖥️ Demo
 
-Live app: [add your Streamlit Cloud URL here]
+Live app: https://realtime-chatbot-agent-myw7jc63emqbt7qzxwiruh.streamlit.app/
 
 🚀 Getting Started
 Prerequisites
@@ -44,6 +44,7 @@ bash
 The app will be available at http://localhost:8501.
 
 ☁️ Deployment (Streamlit Community Cloud)
+
 Push the project to a public GitHub repository. Ensure .streamlit/secrets.toml is not committed — this is already handled by .gitignore.
 Go to share.streamlit.io and sign in with GitHub.
 Click New app, select the repository and main branch, and set the main file path to app.py.
@@ -59,11 +60,13 @@ Use this link to showcase the project to clients or in your portfolio.
 Language: Python
 Frontend/UI: Streamlit
 AI Provider: Groq API (OpenAI-compatible, free tier, streaming chat completions)
+
 🗺️ Roadmap
  Add Retrieval-Augmented Generation (RAG) to answer questions from custom documents
  Add persistent chat history (database-backed sessions)
  Add usage/token tracking
  Add authentication for multi-user deployments
+ 
 📄 License
 
 This project is available for personal and portfolio use. Feel free to fork and adapt it for your own projects.
