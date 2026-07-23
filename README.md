@@ -1,65 +1,71 @@
-# 💬 Real-Time Chatbot Agent
 
-A streaming AI chatbot built with **OpenAI's API** and **Streamlit**, featuring:
-- Real-time streaming responses (word-by-word, like ChatGPT)
-- Conversation memory across turns
-- Configurable system prompt (change the agent's role/personality)
-- Model selector (gpt-4o-mini, gpt-4o, gpt-3.5-turbo)
+🗨️ Real-Time Chatbot Agent
 
-Built as a portfolio project to demonstrate AI chatbot development for freelance/client work.
+A production-style, real-time streaming AI chatbot built with Streamlit and the Groq API. This project demonstrates core skills required for building custom AI chat applications: streaming responses, conversation memory, configurable agent behavior, and cloud deployment.
 
----
+Developed as a portfolio piece to showcase AI chatbot development capabilities for freelance and client engagements.
 
-## 🚀 Run Locally
+✨ Features
+Feature	Description
+Real-time streaming	Responses render word-by-word, similar to ChatGPT
+Conversation memory	Full chat history is retained and sent with each request
+Configurable system prompt	Adjust the assistant's role, tone, and behavior on the fly
+Model selection	Switch between llama-3.3-70b-versatile, llama-3.1-8b-instant, and gemma2-9b-it
+Secure key handling	Supports both Streamlit Secrets (recommended) and manual key entry
+One-click deploy	Ready for free hosting on Streamlit Community Cloud
+🖥️ Demo
 
-1. Clone this repo and enter the folder:
-   ```bash
+Live app: [add your Streamlit Cloud URL here]
+
+🚀 Getting Started
+Prerequisites
+Python 3.9+
+A free Groq API key
+Local Setup
+Clone the repository
+bash
    git clone <your-repo-url>
    cd realtime-chatbot-agent
-   ```
-
-2. Install dependencies:
-   ```bash
+Install dependencies
+bash
    pip install -r requirements.txt
-   ```
-
-3. Add your OpenAI API key. Copy the example secrets file:
-   ```bash
+Configure your API key Copy the example secrets file:
+bash
    cp .streamlit/secrets.toml.example .streamlit/secrets.toml
-   ```
-   Then open `.streamlit/secrets.toml` and paste your real key in place of the placeholder.
 
-4. Run the app:
-   ```bash
+Open .streamlit/secrets.toml and replace the placeholder with your key:
+
+toml
+   GROQ_API_KEY = "gsk_your-real-key-here"
+Run the app
+bash
    streamlit run app.py
-   ```
 
-   The app opens at `http://localhost:8501`.
+The app will be available at http://localhost:8501.
 
----
+☁️ Deployment (Streamlit Community Cloud)
+Push the project to a public GitHub repository. Ensure .streamlit/secrets.toml is not committed — this is already handled by .gitignore.
+Go to share.streamlit.io and sign in with GitHub.
+Click New app, select the repository and main branch, and set the main file path to app.py.
+Under Advanced settings → Secrets, add:
+toml
+   GROQ_API_KEY = "gsk_your-real-key-here"
+Click Deploy. Streamlit will provision a live URL in the form:
+   https://realtime-chatbot-agent-myw7jc63emqbt7qzxwiruh.streamlit.app/
 
-## ☁️ Deploy for Free (Streamlit Community Cloud)
+Use this link to showcase the project to clients or in your portfolio.
 
-1. Push this project to a **public GitHub repo** (make sure `.streamlit/secrets.toml` is NOT included — `.gitignore` already handles this).
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **New app**, select your repo, branch `main`, and set the main file to `app.py`.
-4. Under **Advanced settings → Secrets**, paste:
-   ```toml
-   OPENAI_API_KEY = "sk-your-real-key-here"
-   ```
-5. Click **Deploy**. You'll get a live public URL like:
-   `https://your-app-name.streamlit.app`
+🛠️ Tech Stack
+Language: Python
+Frontend/UI: Streamlit
+AI Provider: Groq API (OpenAI-compatible, free tier, streaming chat completions)
+🗺️ Roadmap
+ Add Retrieval-Augmented Generation (RAG) to answer questions from custom documents
+ Add persistent chat history (database-backed sessions)
+ Add usage/token tracking
+ Add authentication for multi-user deployments
+📄 License
 
-That live link is what you share with Upwork clients as your portfolio demo.
+This project is available for personal and portfolio use. Feel free to fork and adapt it for your own projects.
 
----
-
-## 🛠️ Tech Stack
-- Python
-- Streamlit (UI)
-- OpenAI API (chat completions, streaming)
-
-## 📌 Notes
-- Get an API key at [platform.openai.com](https://platform.openai.com/api-keys)
-- gpt-4o-mini is recommended for demos — it's fast and very cheap
-- This project can be extended into a RAG chatbot (answering from your own documents) — see Project ideas in the freelancer roadmap
+Author: Wajida
