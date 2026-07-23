@@ -3,7 +3,7 @@ from openai import OpenAI
 
 st.set_page_config(page_title="Real-Time Chatbot Agent", page_icon="💬", layout="centered")
 st.title("💬 Real-Time Chatbot Agent")
-st.caption("A streaming AI chatbot built with Groq (free) + Streamlit — portfolio project by [Your Name]")
+st.caption("A streaming AI chatbot built with Groq (free) + Streamlit — portfolio project by Wajida")
 
 with st.sidebar:
     st.header("Settings")
