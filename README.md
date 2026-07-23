@@ -1,62 +1,95 @@
-🗨️ Real-Time AI Chatbot Agent
+# 🗨️ Real-Time AI Chatbot Agent
 
-A production-ready AI chatbot built with Python, Streamlit, and the Groq API. It delivers a ChatGPT-like experience with real-time streaming responses, conversation memory, configurable prompts, and support for multiple LLMs.
+A production-ready AI chatbot built with **Python**, **Streamlit**, and the **Groq API**. It provides a ChatGPT-like experience with real-time streaming responses, conversation memory, customizable system prompts, and support for multiple Large Language Models (LLMs).
 
-Designed to demonstrate practical AI application development skills for freelance and client projects.
+This project showcases practical AI application development skills, including API integration, prompt engineering, session management, and cloud deployment.
 
-✨ Features
+## ✨ Features
 
-⚡ Real-time streaming responses
+- ⚡ Real-time streaming responses
+- 💬 Conversation memory
+- 🎯 Configurable system prompts
+- 🤖 Multiple LLM support
+- 🔒 Secure API key management
+- ☁️ Streamlit Cloud deployment ready
+- 📱 Clean and responsive user interface
 
-💬 Conversation memory
+## 🛠️ Tech Stack
 
-🎯 Customizable system prompts
+- Python
+- Streamlit
+- Groq API
+- Large Language Models (LLMs)
 
-🤖 Multiple Groq model support
+## 🚀 Run Locally
 
-🔒 Secure API key management
+Clone the repository:
 
-☁️ Ready for Streamlit Cloud deployment
-
-🚀 Tech Stack
-
-Python
-
-Streamlit
-
-Groq API
-
-Large Language Models (LLMs)
-
-▶️ Run Locally
-
+```bash
 git clone https://github.com/Wajid148/realtime-chatbot-agent.git
 
 cd realtime-chatbot-agent
+```
 
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
-streamlit run app.py
+Create a `.streamlit/secrets.toml` file and add your Groq API key:
 
-Add your Groq API key in .streamlit/secrets.toml:
-
+```toml
 GROQ_API_KEY="your_api_key"
+```
 
-🌐 Live Demo
+Run the application:
 
-Demo: https://realtime-chatbot-agent-myw7jc63emqbt7qzxwiruh.streamlit.app/
+```bash
+streamlit run app.py
+```
 
-📌 Future Improvements
+The app will be available at:
 
-Retrieval-Augmented Generation (RAG)
+```
+http://localhost:8501
+```
 
-Persistent chat history
+## 🌐 Live Demo
 
-User authentication
+**Try the application here:**
 
-Token usage analytics
+https://realtime-chatbot-agent-myw7jc63emqbt7qzxwiruh.streamlit.app/
 
-👩‍💻 Author
+## 📂 Project Structure
 
-Wajida Bano
-AI & Machine Learning Enthusiast | Software Engineering Student
+```text
+realtime-chatbot-agent/
+│── app.py
+│── requirements.txt
+│── README.md
+│── .gitignore
+│── secrets.toml.example
+```
+
+## 🔮 Future Improvements
+
+- Retrieval-Augmented Generation (RAG)
+- Persistent chat history
+- Authentication system
+- Token usage analytics
+- PDF and document chatbot support
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👩‍💻 Author
+
+**Wajida Bano**
+
+Software Engineering Student | AI & Machine Learning Enthusiast | AI Application Developer
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
